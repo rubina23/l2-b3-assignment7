@@ -1,6 +1,6 @@
 ### 1. What is PostgreSQL?
 
-PostgreSQL is an open-source, relational database management system (RDBMS) known for its robustness, flexibility, and standards compliance. It supports advanced SQL features, complex queries, concurrency, and is designed to handle a wide variety of workloads.
+PostgreSQL is an open-source, relational database management system (RDBMS) known for its robustness, flexibility, and standards compliance. It supports advanced SQL features, complex queries, and is designed to handle a wide variety of workloads.
 
 ### 2. What is the purpose of a database schema in PostgreSQL?
 
@@ -27,7 +27,7 @@ The `WHERE` clause filters records based on specified conditions, retrieving onl
 
 ### 7. How can you perform data modification using UPDATE statements?
 
-The `UPDATE` statement modifies existing records in a table. We can specify new values for columns and filter the rows we want to update using a `WHERE` clause. Here’s a basic example:
+The `UPDATE` statement modifies existing records in a table. We can specify new values for columns and filter the rows we want to update using a `WHERE` clause. Here’s a an example:
 
 ```sql
 UPDATE table_name
