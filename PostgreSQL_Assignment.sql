@@ -86,7 +86,8 @@ SELECT DISTINCT course_id
 FROM enrollment
 );
 
-SELECT * FROM courses;
+--SELECT * FROM courses;
+
 -- -------------------------------------------------------- Query 5: ----------------------------------------------------------
 SELECT * FROM students LIMIT 2 OFFSET 2;
 
