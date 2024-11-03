@@ -9,32 +9,32 @@ In this assignment, you will work with PostgreSQL, a powerful open-source relati
 
 1. **Database Setup:**
 
-   -  Install PostgreSQL on your system if not already installed.
-   -  Create a fresh database titled "university_db" or any other appropriate name.
+   - Install PostgreSQL on your system if not already installed.
+   - Create a fresh database titled "university_db" or any other appropriate name.
 
 2. **Table Creation:**
 
    **Create a "students" table with the following fields:**
 
-   -  `student_id (Primary Key)`: Integer, unique identifier for students.
-   -  `student_name`: String, representing the student's name.
-   -  `age`: Integer, indicating the student's age.
-   -  `email`: String, storing the student's email address.
-   -  `frontend_mark`: Integer, indicating the student's frontend assignment marks.
-   -  `backend_mark`: Integer, indicating the student's backend assignment marks.
-   -  `status`: String, storing the student's result status.
+   - `student_id (Primary Key)`: Integer, unique identifier for students.
+   - `student_name`: String, representing the student's name.
+   - `age`: Integer, indicating the student's age.
+   - `email`: String, storing the student's email address.
+   - `frontend_mark`: Integer, indicating the student's frontend assignment marks.
+   - `backend_mark`: Integer, indicating the student's backend assignment marks.
+   - `status`: String, storing the student's result status.
 
    **Create a "courses" table with the following fields:**
 
-   -  `course_id (Primary Key)`: Integer, unique identifier for courses.
-   -  `course_name`: String, indicating the course's name.
-   -  `credits`: Integer, signifying the number of credits for the course.
+   - `course_id (Primary Key)`: Integer, unique identifier for courses.
+   - `course_name`: String, indicating the course's name.
+   - `credits`: Integer, signifying the number of credits for the course.
 
    **Create an "enrollment" table with the following fields:**
 
-   -  `enrollment_id (Primary Key)`: Integer, unique identifier for enrollments.
-   -  `student_id (Foreign Key)`: Integer, referencing `student_id` in the "Students" table.
-   -  `course_id (Foreign Key)`: Integer, referencing `course_id` in the "Courses" table.
+   - `enrollment_id (Primary Key)`: Integer, unique identifier for enrollments.
+   - `student_id (Foreign Key)`: Integer, referencing `student_id` in the "Students" table.
+   - `course_id (Foreign Key)`: Integer, referencing `course_id` in the "Courses" table.
 
 ---
 
@@ -77,12 +77,12 @@ In this assignment, you will work with PostgreSQL, a powerful open-source relati
 
 Insert a new student record with the following details:
 
--  Name: YourName
--  Age: YourAge
--  Email: YourEmail
--  Frontend-Mark: YourMark
--  Backend-Mark: YourMark
--  Status: NULL
+- Name: YourName
+- Age: YourAge
+- Email: YourEmail
+- Frontend-Mark: YourMark
+- Backend-Mark: YourMark
+- Status: NULL
 
 **Note:** You can choose random values for the frontend_mark, backend_mark, and other fields (except NULL for the status).
 
@@ -168,17 +168,17 @@ Retrieve the names of students whose email addresses contain 'example.com'.
 7. How can you perform data modification using UPDATE statements?
 8. What is the significance of the JOIN operation, and how does it work in PostgreSQL?
 9. Explain the GROUP BY clause and its role in aggregation operations.
-10.   How can you calculate aggregate functions like COUNT, SUM, and AVG in PostgreSQL?
-11.   What is the purpose of an index in PostgreSQL, and how does it optimize query performance?
-12.   Explain the concept of a PostgreSQL view and how it differs from a table.
+10. How can you calculate aggregate functions like COUNT, SUM, and AVG in PostgreSQL?
+11. What is the purpose of an index in PostgreSQL, and how does it optimize query performance?
+12. Explain the concept of a PostgreSQL view and how it differs from a table.
 
 ---
 
 ### Deadline:
 
--  60 Marks (24 October, 2024 Until 11.59 PM)
--  50 Marks (25 October, 2024 Until 11.59 PM)
--  30 Marks After 25 October, 2024 Until 11.59 PM
+- 60 Marks (24 October, 2024 Until 11.59 PM)
+- 50 Marks (25 October, 2024 Until 11.59 PM)
+- 30 Marks After 25 October, 2024 Until 11.59 PM
 
 ---
 
